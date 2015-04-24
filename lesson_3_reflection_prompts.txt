@@ -20,4 +20,10 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 	Create a Brach in your local repository and working in them, when you have some significative for this project, ypu could make push.
 	
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	You should use a separete branch when:
+	- Add a new function that not should stay in currently branch, it's a experimental new function
+	- For each Sprint o delivery to client. It's necesary pull this branch when thre are bug for fix
+	- Two diferents change affect the same functionality
+	
   
